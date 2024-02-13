@@ -1,0 +1,25 @@
+@media (max-width: 1023px) {
+  .introduction {
+    right: 117px;
+  }
+  .introduction-p {
+    text-align: end;
+  }
+  .introduction-name {
+    text-align: end;
+    font-size: 50px;
+  }
+  .introduction-profession {
+    text-align: end;
+  }
+  .media {
+    display: flex;
+    justify-content: end;
+    flex-direction: column;
+    gap: 40px;
+    text-align: end;
+  }
+  .slogan {
+    display: none;
+  }
+}
