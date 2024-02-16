@@ -33,8 +33,7 @@
     display: none;
   }
   .main-image {
-    display: flex;
-    width: 100%;
+    display: block;
     height: 972px;
     object-fit: cover;
   }
