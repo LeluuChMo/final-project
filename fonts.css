@@ -1,0 +1,44 @@
+@font-face {
+  font-family: "poppins-extrabold";
+  src: url(fonts/Poppins-ExtraBold.ttf) format(truetype);
+}
+@font-face {
+  font-family: "poppins-semibold";
+  src: url(fonts/Poppins-SemiBold.ttf) format(truetype);
+}
+@font-face {
+  font-family: "montserrat-regular";
+  src: url(fonts/Montserrat-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: "montserrat-bold";
+  src: url(fonts/Montserrat-Bold.ttf) format(truetype);
+}
+@font-face {
+  font-family: "glacialindifference-bold";
+  src: url(fonts/GlacialIndifference-Bold.ttf) format(truetype);
+}
+@font-face {
+  font-family: "glacialindifference-regular";
+  src: url(fonts/GlacialIndifference-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: "muli";
+  src: url(fonts/Muli.ttf) format(truetype);
+}
+@font-face {
+  font-family: "muli-regular";
+  src: url(fonts/Muli-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: "roboto-regular";
+  src: url(fonts/Roboto-Regular.ttf) format(truetype);
+}
+@font-face {
+  font-family: "roboto-light";
+  src: url(fonts/Roboto-Light.ttf) format(truetype);
+}
+@font-face {
+  font-family: "jaapokki-regular";
+  src: url(fonts/Jaapokki-Regular.ttf) format(truetype);
+}
