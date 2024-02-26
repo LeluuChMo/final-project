@@ -1,68 +1,145 @@
-@media (max-width: 1024px) {
-  .introduction-box {
-    display: flex;
-    align-items: end;
-    top: 340px;
+@media screen and (max-width: 1279px) {
+  .bio-box {
+    flex-direction: column;
+    align-items: center;
   }
-  .introduction-p {
-    text-align: end;
+  .bio {
+    text-align: start;
   }
-  .introduction-name {
-    text-align: end;
+  .bio-text {
+    text-align: start;
   }
-  .introduction-profession {
-    text-align: end;
+  .service-box {
+    height: 1500px;
   }
-  .media-box {
-    display: flex;
-    justify-content: end;
+  .service-grid {
+    grid-template-columns: repeat(2, 285px);
+    grid-template-rows: repeat(8, 360px);
+    grid-template-areas:
+      "service-box1 service-box2"
+      "service-box3 service-box4"
+      "service-box5 service-box6"
+      "service-box7 service-box8";
   }
-  .slogan p {
-    text-align: end;
+  .side-bar {
+    display: none;
+  }
+  .project-grid {
+    gap: 20px;
   }
 }
 
-@media (max-width: 768px) {
-  .title {
-    display: none;
+@media (max-width: 1024px) {
+  .info-box {
+    height: auto;
   }
-  .title-number {
-    display: none;
-  }
-  .slider {
-    display: none;
-  }
-  .main-image {
-    display: block;
-    height: 972px;
-    object-fit: cover;
-  }
-  .introduction-box {
-    display: flex;
+  .icon-boxes {
+    flex-direction: column;
     align-items: start;
-    top: 340px;
-    left: 52px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
-  .introduction-p {
-    text-align: start;
+  .recommendations {
+    top: 151px;
   }
-  .introduction-name {
-    text-align: start;
-    font-size: 60px;
-    width: 80px;
+  .recommendations-slider {
+    flex-direction: column-reverse;
   }
-  .introduction-profession {
-    text-align: start;
+  .recommendations-slider-p {
+    text-align: left;
+    width: 50%;
+    height: auto;
   }
-  .media-box {
+  .recommendator {
+    display: none;
+  }
+  .recommendator-info {
+    margin-top: 30px;
+    width: 50%;
+  }
+  .recommendator-name {
+    margin-bottom: 10px;
+  }
+  .dots {
     display: flex;
-    justify-content: start;
+    width: 50%;
+    gap: 20px;
   }
-  .slogan {
-    left: 52px;
-    width: 300px;
+  .dot {
+    width: 20px;
+    height: 20px;
   }
-  .slogan p {
-    text-align: start;
+  .project-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .article-grid {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 20px;
+  }
+  .article-date {
+    display: none;
+  }
+  .article-photo2 {
+    order: 3;
+  }
+  .article2 {
+    order: 2;
+  }
+  .article-box {
+    width: auto;
+    margin-left: 0px;
+  }
+  .article-box img {
+    margin-bottom: 30px;
+  }
+  .article-p {
+    width: 90%;
+    height: auto;
+  }
+  .article-p a {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #e93656;
+  }
+  .partner-logo-box {
+    flex-wrap: wrap;
+  }
+  .form-grid {
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    margin-top: 30px;
+  }
+  .contact-box h3 {
+    font-size: 20px;
+  }
+  .contact-box p {
+    display: none;
+  }
+  .form-grid textarea {
+    width: 290px;
+  }
+  .message-button {
+    margin-left: 17%;
+    height: 50px;
+  }
+}
+@media (max-width: 768px) {
+  .bio-image {
+    width: 250px;
+  }
+  .service-grid {
+    grid-template-columns: repeat(1, 285px);
+    grid-template-rows: repeat(16, 180px);
+    grid-template-areas:
+      "service-box1" "service-box2"
+      "service-box3" "service-box4"
+      "service-box5" "service-box6"
+      "service-box7" "service-box8";
   }
 }
