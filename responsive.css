@@ -30,6 +30,44 @@
 }
 
 @media (max-width: 1024px) {
+  .slider img {
+    height: 600px;
+  }
+  .slider {
+    height: 600px;
+  }
+  .title {
+    top: 75px;
+    font-size: 30px;
+    right: 30px;
+    width: auto;
+  }
+  .title-number {
+    font-size: 100px;
+    right: 50px;
+    width: auto;
+  }
+  .introduction-box {
+    text-align: right;
+    top: 185px;
+  }
+  .introduction-p {
+    font-size: 30px;
+  }
+  .introduction-name {
+    font-size: 40px;
+    width: 350px;
+  }
+  .media-box img {
+    width: 30px;
+    height: 30px;
+  }
+  .slogan {
+    top: 500px;
+    right: 50px;
+    text-align: right;
+    width: 300px;
+  }
   .info-box {
     height: auto;
   }
@@ -141,5 +179,11 @@
       "service-box3" "service-box4"
       "service-box5" "service-box6"
       "service-box7" "service-box8";
+  }
+  .roca-box {
+    padding: 20px;
+  }
+  .copyright {
+    padding: 20px;
   }
 }
