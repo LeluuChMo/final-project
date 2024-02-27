@@ -556,8 +556,8 @@
               <div class="form1">
                 <input
                   type="text"
-                  name="first-name"
-                  id="first-name"
+                  name="firstname"
+                  id="firstname"
                   placeholder="Your Name"
                 />
                 <p class="error" id="name-error"></p>
@@ -574,8 +574,8 @@
               <div class="form3">
                 <input
                   type="url"
-                  name="website-url"
-                  id="website-url"
+                  name="websiteurl"
+                  id="websiteurl"
                   placeholder="Your Website"
                 />
                 <p class="error" id="website-error"></p>
@@ -593,6 +593,19 @@
                 Send Message
               </button>
             </form>
+            <div id="errorModal" class="modal">
+              <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p id="errorModalMessage"></p>
+              </div>
+          </div>
+          <div id="successModal" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <p id="successModalMessage"></p>
+            </div>
+        </div>
+            <p id="status"></p>
           </div>
         </div>
       </section>
