@@ -168,6 +168,47 @@
   }
 }
 @media (max-width: 768px) {
+  .logo {
+    left: 30px;
+  }
+  .slider-image1 {
+    object-position: 20%;
+    opacity: 0.5;
+  }
+  .title {
+    display: none;
+  }
+  .title-number {
+    display: none;
+  }
+  .introduction-box {
+    text-align: right;
+    top: 185px;
+  }
+  .introduction-p {
+    font-size: 20px;
+  }
+  .introduction-name {
+    font-size: 30px;
+    width: 250px;
+  }
+  .introduction-profession {
+    font-size: 15px;
+  }
+  .media-box img {
+    width: 30px;
+    height: 30px;
+  }
+  .slogan {
+    top: 500px;
+    right: 50px;
+    text-align: right;
+    width: 200px;
+    height: 35px;
+  }
+  .slogan p {
+    font-size: 15px;
+  }
   .bio-image {
     width: 250px;
   }
